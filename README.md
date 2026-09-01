@@ -4,15 +4,15 @@ DOMINOANN v1.0 is a fully automated bash script and R based pipeline with a Zeni
 
 Packages Required to run DOMINOANN v1.0
 
-	r-base
-	r-biocmanager
-	r-ggplot2
-	r-ggridges
-	r-rcolorbrewer
-	bioconductor-annotationforge
-	bioconductor-biomart
-	bioconductor-clusterprofiler
-	bioconductor-enrichplot
+r-base
+r-biocmanager
+r-ggplot2
+r-ggridges
+r-rcolorbrewer
+bioconductor-annotationforge
+bioconductor-biomart
+bioconductor-clusterprofiler
+bioconductor-enrichplot
 
 This repository contains three variants of the pipeline:
 1.	Docker Variant: Runs in an isolated Docker container (recommended for stability) 
