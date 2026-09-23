@@ -121,8 +121,6 @@ Each subfolder contains the corresponding functional enrichment analysis results
 •	GO-Biological_Process_netplot.png 
 •	GO-Biological_Process_ridgeplot.png 
 
-
-
 The same file structure is followed for the Cellular Component and Molecular Function categories, with the respective category names reflected in the filenames.
 
 2) KEGG_results
@@ -132,6 +130,8 @@ Within the KEGG_Results folder also,  a subfolder is automatically created based
 •	KEGG_enrichmentmap.png
 •	KEGG_enrichment_netplot.png
 •	KEGG_enrichment_ridgeplot.png
+
+The demonstration data in the Test_Data folder shall be used testing the pipeline functionality
 
 Authors:
 Dr. Umashankar Vetrivel, Roja Jayaraman & Infanta Saleth Teresa Eden M Department of Virology and Biotechnology, Bioinformatics Division, Indian Council for Medical Research -National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India.
