@@ -1,0 +1,4 @@
+
+The Ontology database provided in this folder as org.Mintracellulare.eg.db.zip file which was created on 18th June, 2026, should be unzipped and the resulting folder (org.Mintracellulare.eg.db)should kept inside the current working directory. While executing the DOMINOANNv1.0 pipeline,it will prompt the user to paste the name of the pre-constructed database, in case the user has opted to use a local pre-constructed database.Hence,for this test data analysis, the user shall choose this option and paste the extracted folder name as database (org.Mintracellulare.eg.db), (as the db for the non-model organism Mycobacterium intracellulare will not be automatically downloaded during installation in this option). Then the pipeline will automatically install the database (org.Mintracellulare.eg.db) and proceed further with downstream analysis.
+
+

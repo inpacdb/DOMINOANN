@@ -1,0 +1,2 @@
+The ontology database will be automatically build for the model organisms during the pipeline installation, 
+hence E.coli database will automatically be available after installation, and can be directly used for enrichment analysis.
