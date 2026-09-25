@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+
+message: "If you use DOMINOANN in your research, please cite it using these metadata."
+
+title: "DOMINOANN v1.0: Data Ontology Mapping Integration for Non-model Organism Annotation"
+
+type: software
+
+authors:
+  - family-names: "Umashankar"
+    given-names: "Vetrivel"
+    affiliation: "Indian Council of Medical Research - National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India"
+
+  - family-names: "Jayaraman"
+    given-names: "Roja"
+    affiliation: "Indian Council of Medical Research - National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India"
+
+  - family-names: "Eden"
+    given-names: "Infanta Saleth Teresa M"
+    affiliation: "Indian Council of Medical Research - National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India"
+
+version: "1.0"
+
+abstract: >
+  DOMINOANN v1.0 is a fully automated Bash- and R-based workflow with a
+  Zenity graphical user interface for functional enrichment analysis of
+  non-model organisms using differentially expressed genes. The pipeline
+  automatically retrieves organism-specific annotation resources, constructs
+  customized annotation databases, and performs Gene Ontology and KEGG
+  pathway enrichment analysis with integrated visualization.
+
+keywords:
+  - non-model organisms
+  - functional annotation
+  - gene ontology
+  - KEGG
+  - enrichment analysis
+  - differential gene expression
+  - bioinformatics
+  - computational biology
+  - Bash
+  - R
+  - Zenity
+  - annotation database
+
+license: "GPL-3.0"
+
+repository-code: "https://github.com/inpacdb/DOMINOANN"
+
+url: "https://github.com/inpacdb/DOMINOANN"
