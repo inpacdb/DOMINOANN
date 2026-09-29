@@ -1,6 +1,13 @@
+
+<img width="1536" height="1024" alt="WhatsApp Image 2026-09-25 at 16 32 49" src="https://github.com/user-attachments/assets/f576fb62-93b8-417b-a8a6-fe946313a540" />
+
+
+
 #DOMINOANN v1.0 (Data Ontology Mapping Integration for Non-model Organism Annotation): A Fully Automated Bash and Zenity GUI-Based Workflow for Customized Functional Enrichment Analysis
 
 DOMINOANN v1.0 is a fully automated bash script and R based pipeline with a Zenity utility based graphical user interface (GUI) for functional enrichment analysis for non model organisms using differentially expressed genes (DEGs) . DOMINOANN performs gene annotation and pathway enrichment analysis using Gene Ontology (GO) and KEGG databases by automatically retrieving organism-specific annotation resources, constructing customized annotation databases and performing functional enrichment analysis. The pipeline additionally generates integrated graphical visualizations within a single workflow. 
+
+Complete Video Demonstration of the Pipeline is available at : https://www.youtube.com/watch?v=CUJ3Xk5RqRs
 
 Packages Required to run DOMINOANN v1.0
 
