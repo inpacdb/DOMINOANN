@@ -140,6 +140,8 @@ Within the KEGG_Results folder also,  a subfolder is automatically created based
 
 The demonstration data in the Test_Data folder shall be used testing the pipeline functionality
 
+The updated environment_updated_after_ensembl_and_Biomart_update.yaml file, incorporating the revised R, Bioconductor, and BioMart package versions required to resolve Ensembl connectivity issues and ensure the successful execution of the DOMINOANN v1.0 workflow, has been included alongside the original environment.yaml file. Both files are provided to document the software environment and facilitate reproducibility, allowing users to refer to the original configuration as well as the updated configuration required for compatibility with Ensembl release 116.
+
 Authors:
 Dr. Umashankar Vetrivel, Roja Jayaraman & Infanta Saleth Teresa Eden M Department of Virology and Biotechnology, Bioinformatics Division, Indian Council for Medical Research -National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India.
 
