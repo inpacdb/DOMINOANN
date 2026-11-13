@@ -298,7 +298,9 @@ done
 
 printf "\n\n \e[1m\e[31mNext, to build the customised annotation database, users can run the below command by ensuring that,\n\n (i)\t The internet connection is stable and free from firewall blocks, and \n(ii)\t The NCBI.SQLite file is found in the current working directory:\n\n\033[0m\e[0m"
 IFS='_' read -r part1 part2 <<< "$local_name"
-printf "\nsuppressPackageStartupMessages(library(AnnotationForge)); makeOrgPackageFromNCBI(version = '0.1', author = 'user <user@user.org>', maintainer = 'user <user@user.org>', outputDir = '.', tax_id = '$tax_id', genus = '$part1', species = '$part2', rebuildCache = FALSE)\n"
+printf "\nsuppressPackageStartupMessages (library(biomaRt)) ; ensembl116 <- useEnsembl(biomart = 'genes', version = 116)\n"
+printf "\nsuppressPackageStartupMessages(library(AnnotationForge)) ; ; ; makeOrgPackageFromNCBI(version = '0.1', author = 'user <user@user.org>', maintainer = 'user <user@user.org>', outputDir = '.', tax_id = '$tax_id', genus = '$part1', species = '$part2', rebuildCache = FALSE , ensemblVersion = 116)\n"
+#printf "\nsuppressPackageStartupMessages(library(AnnotationForge)); makeOrgPackageFromNCBI(version = '0.1', author = 'user <user@user.org>', maintainer = 'user <user@user.org>', outputDir = '.', tax_id = '$tax_id', genus = '$part1', species = '$part2', rebuildCache = FALSE , ensemblVersion = 116)\n"
 printf '\nAfter successful run of the above command, the following message will be displayed.\n Creating package in ./org.Modelorganism.eg.db\n'
 printf 'The customized database folder will be created in the current working directory, The "org.Modelorganism.eg.db" is replaced with your database name. \n\n'
 printf "After this, install the database as an R package using the below command.\n"
