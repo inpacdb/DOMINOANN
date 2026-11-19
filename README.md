@@ -142,6 +142,8 @@ The demonstration data in the Test_Data folder shall be used testing the pipelin
 
 The updated environment_updated_after_ensembl_and_Biomart_update.yaml file, incorporating the revised R, Bioconductor, and BioMart package versions required to resolve Ensembl connectivity issues and ensure the successful execution of the DOMINOANN v1.0 workflow, has been included alongside the original environment.yaml file. Both files are provided to document the software environment and facilitate reproducibility, allowing users to refer to the original configuration as well as the updated configuration required for compatibility with Ensembl release 116.
 
+**Disclaimer:** The successful download and execution of the updated environment may depend on the availability and operational status of the relevant Ensembl and BioMart data servers. As these are externally maintained resources, intermittent server downtime, connectivity issues, or changes in data accessibility may affect the download or retrieval of the required annotation data. Such issues are beyond the control of the DOMINOANN v1.0 workflow.
+
 Authors:
 Dr. Umashankar Vetrivel, Roja Jayaraman & Infanta Saleth Teresa Eden M Department of Virology and Biotechnology, Bioinformatics Division, Indian Council for Medical Research -National Institute for Research in Tuberculosis (ICMR-NIRT), Chennai, India.
 
