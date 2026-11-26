@@ -42,6 +42,7 @@ sudo docker build -t user/enrichment_tools:latest .
 sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v "$HOME:$HOME" user/enrichment_tools:latest
 3.Running the Pipeline:
 Inside the docker container, Navigate to the path where the pipeline scripts are kept and run the pipeline script as usual.
+
 cd  /path_to_docker_variant_folder
 bash enrichment_pipeline.sh
 
