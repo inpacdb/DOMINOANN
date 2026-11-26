@@ -20,6 +20,7 @@ bioconductor-annotationforge,
 bioconductor-biomart,
 bioconductor-clusterprofiler,
 bioconductor-enrichplot
+tsnyder-figlet
 
 This repository contains three variants of the pipeline:
 1.	Docker Variant: Runs in an isolated Docker container (recommended for stability) 
@@ -69,8 +70,11 @@ ggridges               - "conda install -y conda-forge::r-ggridges"
 AnnotationForge  - "conda install bioconda::bioconductor-annotationforge"
 biomaRt               - "conda install bioconda::bioconductor-biomart"
 BiocManager       - "conda install conda-forge::r-biocmanager"
+r-rcolorbrewer      - "conda install -y conda-forge::r-rcolorbrewer"
+tsnyder-figlet         - "conda install -y tsnyder::figlet"
 
-3. Running the Pipeline:
+
+4. Running the Pipeline:
 In the command line Interface on your desktop, activate your conda environment and run the bash script.
 conda activate enrichment_tools
 cd /Zenity_GUI_Variant 
@@ -95,7 +99,7 @@ How it works:
 
 •	Once the custom annotation database is generated, it performs GO and KEGG enrichment analysis. 
 
-•	With Ontology category ("BP" for Biological Process, "MF" for Molecular Function, "CC" for Cellular Component), pAdjustMethod: "BH" (Benjamini-Hochberg), pvalueCutoff: 0.05 and qvalueCutoff: 0.05, the GO enrichment analysis has been performed. 
+•	With Ontology category ("BP" for Biological Process, "MF" for Molecular Function, "CC" for Cellular Component), pAdjustMethod: "BH" (Benjamini-Hochberg), pvalueCutoff: < 0.05 and qvalueCutoff: < 0.05, the GO enrichment analysis has been performed. 
 
 •	KEGG pathway enrichment analysis was also performed using the same set of differentially expressed genes. 
 
